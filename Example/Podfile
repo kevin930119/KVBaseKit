@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KVBaseKit_Example' do
+  pod 'KVBaseKit', :path => '../'
+
+  target 'KVBaseKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

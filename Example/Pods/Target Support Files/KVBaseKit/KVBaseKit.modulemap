@@ -1,0 +1,6 @@
+framework module KVBaseKit {
+  umbrella header "KVBaseKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
