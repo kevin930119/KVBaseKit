@@ -8,11 +8,11 @@
 import Foundation
 
 extension UIColor {
-    class func color(hexString hex: String) -> UIColor {
+    open class func color(hexString hex: String) -> UIColor {
         return self.color(hexString: hex, alpha: 1)
     }
     
-    class func color(hexString hex: String, alpha a: CGFloat) -> UIColor {
+    open class func color(hexString hex: String, alpha a: CGFloat) -> UIColor {
         var resultHexString: String = "000000"
         if hex.hasPrefix("0x") {
             if hex.lengthOfBytes(using: .utf8) < 8 {
@@ -45,11 +45,11 @@ extension UIColor {
         return self.color(hexInt: UInt32(hexInt), alpha: a)
     }
     
-    class func color(hexInt hex: UInt32) -> UIColor {
+    open class func color(hexInt hex: UInt32) -> UIColor {
         return self.color(hexInt: hex, alpha: 1)
     }
     
-    class func color(hexInt hex: UInt32, alpha a: CGFloat) -> UIColor {
+    open class func color(hexInt hex: UInt32, alpha a: CGFloat) -> UIColor {
         let r = (hex & 0x00FF0000) >> 16;
         let g = (hex & 0x0000FF00) >> 8;
         let b = (hex & 0x000000FF);
@@ -60,7 +60,7 @@ extension UIColor {
     }
     
     // MARK: - 动态颜色创建方法（适配暗黑模式）
-    class func colorByUserInterfaceStyle(light lc:UIColor, dark dc:UIColor?) -> UIColor {
+    open class func colorByUserInterfaceStyle(light lc:UIColor, dark dc:UIColor?) -> UIColor {
         if dc == nil {
             return lc
         }
@@ -78,7 +78,7 @@ extension UIColor {
         }
     }
     
-    class func colorByUserInterfaceStyleUsingHexInt(light lc:UInt32, dark dc:UInt32) -> UIColor {
+    open class func colorByUserInterfaceStyleUsingHexInt(light lc:UInt32, dark dc:UInt32) -> UIColor {
         if #available(iOS 13.0, *) {
             return UIColor.init { (t) -> UIColor in
                 if t.userInterfaceStyle == UIUserInterfaceStyle.light {
@@ -92,7 +92,7 @@ extension UIColor {
         }
     }
     
-    class func colorByUserInterfaceStyleUsingHexString(light lc:String, dark dc:String?) -> UIColor {
+    open class func colorByUserInterfaceStyleUsingHexString(light lc:String, dark dc:String?) -> UIColor {
         if dc == nil {
             return UIColor.color(hexString: lc)
         }

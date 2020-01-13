@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -50,14 +50,14 @@
 		1FBCCD1B9055408D95FD0FD4706111AF /* KVImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVImageView.swift; path = KVBaseKit/Classes/KVImageView.swift; sourceTree = "<group>"; };
 		236E706C4E0843A0F2FC2E907B2CCBCF /* KVButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVButton.swift; path = KVBaseKit/Classes/KVButton.swift; sourceTree = "<group>"; };
 		2B6164B1219651F2BDD1F1405C8C210F /* KVViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVViewController.swift; path = KVBaseKit/Classes/KVViewController.swift; sourceTree = "<group>"; };
-		2C990B00D585919E89D772E0872284A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2C990B00D585919E89D772E0872284A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2E141D0E149AAFE0CA62DDEBC2FC8DD2 /* Pods-KVBaseKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVBaseKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2F053236CFAE8ED775332A67AFE6A35F /* KVBaseKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KVBaseKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2F053236CFAE8ED775332A67AFE6A35F /* KVBaseKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KVBaseKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4D09FAB126F77714821EE4035AFA408A /* Pods-KVBaseKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVBaseKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		51E3BDA2B83AA4196993408AF7D0A750 /* KVAdaptScreenEdgePanScollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVAdaptScreenEdgePanScollView.swift; path = KVBaseKit/Classes/KVAdaptScreenEdgePanScollView.swift; sourceTree = "<group>"; };
-		52F8485A711A8E4C5C95DB309F6BD0A6 /* libKVBaseKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKVBaseKit.a; path = libKVBaseKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F8485A711A8E4C5C95DB309F6BD0A6 /* libKVBaseKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKVBaseKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		555005EC06B8BB38894B2520BDFB1881 /* String+KV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+KV.swift"; path = "KVBaseKit/Classes/String+KV.swift"; sourceTree = "<group>"; };
-		5D23AFACDAEF1B1A59F69C1C7813D5EF /* libPods-KVBaseKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KVBaseKit_Example.a"; path = "libPods-KVBaseKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D23AFACDAEF1B1A59F69C1C7813D5EF /* libPods-KVBaseKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KVBaseKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0FABE4AA498FBCF526CF8C357EC2EF /* KVDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVDevice.swift; path = KVBaseKit/Classes/KVDevice.swift; sourceTree = "<group>"; };
 		6117EA701026A3E784DEC78E9A3C6507 /* KVNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVNavigationController.swift; path = KVBaseKit/Classes/KVNavigationController.swift; sourceTree = "<group>"; };
 		64CF4AC9A00ADFD01E9ED3BFD0EC508E /* UIColor+KV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+KV.swift"; path = "KVBaseKit/Classes/UIColor+KV.swift"; sourceTree = "<group>"; };
@@ -66,12 +66,12 @@
 		8000E49F3CB4FCB1DDB63D2700BDD3D6 /* Pods-KVBaseKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KVBaseKit_Example.modulemap"; sourceTree = "<group>"; };
 		80A29A03BF9791EB10F1EE1507A6480E /* Pods-KVBaseKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVBaseKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		85BAFFD9EE876E4B35DAF3B1A7D2D4ED /* KVBaseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVBaseKit-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A074B452E731CDB0E07216EB153FA2DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A074B452E731CDB0E07216EB153FA2DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		ACF7236D88D70A0674AF3EC4770C3147 /* KVBaseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVBaseKit-umbrella.h"; sourceTree = "<group>"; };
 		AEC05D73DFAAF2F3C90DF44B6EE5F989 /* KVBaseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVBaseKit-prefix.pch"; sourceTree = "<group>"; };
 		BA20F578B72426668E9098C8390F8FB0 /* KVAdaptScreenEdgePanCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVAdaptScreenEdgePanCollectionView.swift; path = KVBaseKit/Classes/KVAdaptScreenEdgePanCollectionView.swift; sourceTree = "<group>"; };
-		C8BE782EFB3C8153095D1E9A5A1891A1 /* libPods-KVBaseKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KVBaseKit_Tests.a"; path = "libPods-KVBaseKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BE782EFB3C8153095D1E9A5A1891A1 /* libPods-KVBaseKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KVBaseKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C987B3844988F985023E6B43C91F46A5 /* Pods-KVBaseKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVBaseKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		CF5548ABC80E5080A4A87F7FA75DA05F /* KVBaseKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVBaseKit.xcconfig; sourceTree = "<group>"; };
 		D02D1BAC5792CE11150AFDD39F62FC4F /* Pods-KVBaseKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVBaseKit_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -315,11 +315,12 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = FA680BD8F68F4A467C668EC524FD5958 /* Products */;
@@ -625,7 +626,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -651,7 +652,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;

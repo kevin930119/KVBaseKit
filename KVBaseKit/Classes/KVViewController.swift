@@ -40,7 +40,7 @@ open class KVViewController: UIViewController {
         }
         
         let viewControllers = self.navigationController!.viewControllers
-        let index = viewControllers.index(of: self)
+        let index = viewControllers.firstIndex(of: self)
         if index == NSNotFound {
             return;
         }
@@ -126,7 +126,7 @@ open class KVViewController: UIViewController {
             self.kv_fakeNavigationBar.isHidden = hidden
         } else {
             self.kv_fakeNavigationBar.isHidden = self.kv_navigationBarHidden ?? false
-            self.view.bringSubview(toFront: self.kv_fakeNavigationBar)
+            self.view.bringSubviewToFront(self.kv_fakeNavigationBar)
         }
     }
     

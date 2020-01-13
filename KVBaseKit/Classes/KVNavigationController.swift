@@ -36,7 +36,7 @@ open class KVNavigationController: UINavigationController, UIGestureRecognizerDe
     // pop回指定控制器之前的界面
     open func popFromViewController(viewController: UIViewController, animated: Bool) {
         let viewControllers = self.viewControllers
-        let index = viewControllers.index(of: viewController)
+        let index = viewControllers.firstIndex(of: viewController)
         if index == NSNotFound {
             return
         }
