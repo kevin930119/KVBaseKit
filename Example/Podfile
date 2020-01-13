@@ -1,4 +1,6 @@
-use_frameworks!
+#use_frameworks!
+
+platform :ios, '8.0'
 
 target 'KVBaseKit_Example' do
   pod 'KVBaseKit', :path => '../'

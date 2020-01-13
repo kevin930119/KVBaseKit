@@ -19,11 +19,6 @@
     "ios": "8.0"
   },
   "frameworks": "UIKit",
-  "dependencies": {
-    "SDWebImage": [
-
-    ]
-  },
   "source_files": "KVBaseKit/Classes/**/*",
   "public_header_files": "KVBaseKit/Classes/**/*.h"
 }
