@@ -1,8 +1,8 @@
 {
   "name": "KVBaseKit",
-  "version": "0.1.0",
-  "summary": "A short description of KVBaseKit.",
-  "description": "Kevin的开发基础库Swift",
+  "version": "0.1.1",
+  "summary": "这是Kevin的开发基础库Swift版本",
+  "description": "Kevin的开发基础库Swift，需要很长很长的描述，哈哈哈哈",
   "homepage": "https://github.com/kevin930119/KVBaseKit.git",
   "license": {
     "type": "MIT",
@@ -13,23 +13,14 @@
   },
   "source": {
     "git": "https://github.com/kevin930119/KVBaseKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "frameworks": [
-    "UIKit",
-    "AVFoundation"
-  ],
+  "frameworks": "UIKit",
   "dependencies": {
-    "SnapKit": [
-
-    ],
     "SDWebImage": [
-
-    ],
-    "Alamofire": [
 
     ]
   },
