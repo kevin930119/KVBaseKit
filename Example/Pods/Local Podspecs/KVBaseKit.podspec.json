@@ -2,21 +2,37 @@
   "name": "KVBaseKit",
   "version": "0.1.0",
   "summary": "A short description of KVBaseKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/673729631@qq.com/KVBaseKit",
+  "description": "Kevin的开发基础库Swift",
+  "homepage": "https://github.com/kevin930119/KVBaseKit.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "673729631@qq.com": "673729631@qq.com"
+    "kevin": "673729631@qq.com"
   },
   "source": {
-    "git": "https://github.com/673729631@qq.com/KVBaseKit.git",
+    "git": "https://github.com/kevin930119/KVBaseKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "KVBaseKit/Classes/**/*"
+  "frameworks": [
+    "UIKit",
+    "AVFoundation"
+  ],
+  "dependencies": {
+    "SnapKit": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "Alamofire": [
+
+    ]
+  },
+  "source_files": "KVBaseKit/Classes/**/*",
+  "public_header_files": "KVBaseKit/Classes/**/*.h"
 }

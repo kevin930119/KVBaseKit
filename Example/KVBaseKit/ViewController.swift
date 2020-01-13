@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KVBaseKit
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        let vc = TestViewController()
+//        let nav = KVNavigationController.init(rootViewController: vc)
+//        nav.modalPresentationStyle = .fullScreen
+//        self.present(nav, animated: true, completion: nil)
+//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

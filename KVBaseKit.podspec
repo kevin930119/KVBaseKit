@@ -28,8 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   
-  s.frameworks = 'UIKit', 'AdSupport', 'AVFoundation'
-  s.dependency 'Masonry'
+  s.frameworks = 'UIKit'
   s.dependency 'SDWebImage'
 
   s.source_files = 'KVBaseKit/Classes/**/*'

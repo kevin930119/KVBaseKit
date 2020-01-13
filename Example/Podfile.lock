@@ -1,15 +1,32 @@
 PODS:
-  - KVBaseKit (0.1.0)
+  - Alamofire (4.9.1)
+  - KVBaseKit (0.1.0):
+    - Alamofire
+    - SDWebImage
+    - SnapKit
+  - SDWebImage (5.4.1):
+    - SDWebImage/Core (= 5.4.1)
+  - SDWebImage/Core (5.4.1)
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - KVBaseKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SDWebImage
+    - SnapKit
 
 EXTERNAL SOURCES:
   KVBaseKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KVBaseKit: 845abf724942e19993b74d16404fb606c5715b72
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  KVBaseKit: 86a58d584bd591546b11daccc7498c6c790a170e
+  SDWebImage: 29c340dbdcef342bb13125553f4e19ce056b07a7
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
 PODFILE CHECKSUM: f29b09fee7c11601d80acab722a0706ff32d81e9
 
