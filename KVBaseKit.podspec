@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KVBaseKit'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = '这是Kevin的开发基础库Swift版本'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
 #  s.dependency 'SDWebImage'
 
-  s.source_files = 'KVBaseKit/Classes/**/*'
+  s.source_files = 'KVBaseKit/Classes/*'
   
-  s.public_header_files = 'KVBaseKit/Classes/**/*.h'
+  s.public_header_files = 'KVBaseKit/Classes/*.h'
   
   # s.resource_bundles = {
   #   'KVBaseKit' => ['KVBaseKit/Assets/*.png']
