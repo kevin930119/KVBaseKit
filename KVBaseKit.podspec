@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KVBaseKit'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = '这是Kevin的开发基础库Swift版本'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,6 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   
   s.frameworks = 'UIKit'
-  s.dependency 'SDWebImage'
 
   s.source_files = 'KVBaseKit/Classes/*'
   

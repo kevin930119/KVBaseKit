@@ -20,11 +20,6 @@
   },
   "swift_versions": "5.0",
   "frameworks": "UIKit",
-  "dependencies": {
-    "SDWebImage": [
-
-    ]
-  },
   "source_files": "KVBaseKit/Classes/*",
   "swift_version": "5.0"
 }

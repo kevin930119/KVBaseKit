@@ -1,24 +1,15 @@
 PODS:
-  - KVBaseKit (0.1.6):
-    - SDWebImage
-  - SDWebImage (5.4.2):
-    - SDWebImage/Core (= 5.4.2)
-  - SDWebImage/Core (5.4.2)
+  - KVBaseKit (0.1.6)
 
 DEPENDENCIES:
   - KVBaseKit (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - SDWebImage
 
 EXTERNAL SOURCES:
   KVBaseKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KVBaseKit: f2374b1103f7ae5fa3c7657fbd765c9d1658b8de
-  SDWebImage: 4ca2dc4eefae4224bea8f504251cda485a363745
+  KVBaseKit: b3ff61c4de3964a473801da9790c79dcabe5be5c
 
 PODFILE CHECKSUM: 74cdf56f10d1df7b0067d90b23dd22a80e47062b
 
