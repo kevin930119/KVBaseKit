@@ -1,6 +1,6 @@
 {
   "name": "KVBaseKit",
-  "version": "0.1.1",
+  "version": "0.1.6",
   "summary": "这是Kevin的开发基础库Swift版本",
   "description": "Kevin的开发基础库Swift，需要很长很长的描述，哈哈哈哈",
   "homepage": "https://github.com/kevin930119/KVBaseKit.git",
@@ -13,12 +13,18 @@
   },
   "source": {
     "git": "https://github.com/kevin930119/KVBaseKit.git",
-    "tag": "0.1.1"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "8.0"
   },
+  "swift_versions": "5.0",
   "frameworks": "UIKit",
-  "source_files": "KVBaseKit/Classes/**/*",
-  "public_header_files": "KVBaseKit/Classes/**/*.h"
+  "dependencies": {
+    "SDWebImage": [
+
+    ]
+  },
+  "source_files": "KVBaseKit/Classes/*",
+  "swift_version": "5.0"
 }

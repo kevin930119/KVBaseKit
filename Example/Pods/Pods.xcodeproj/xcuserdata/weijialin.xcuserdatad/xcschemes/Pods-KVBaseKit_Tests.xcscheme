@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1130"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BAD2B57E8767D5743296C8103A132F5C"
-               BuildableName = "libPods-KVBaseKit_Tests.a"
+               BuildableName = "Pods_KVBaseKit_Tests.framework"
                BlueprintName = "Pods-KVBaseKit_Tests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

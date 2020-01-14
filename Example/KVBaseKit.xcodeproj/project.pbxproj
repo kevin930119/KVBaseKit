@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		3DD9DAA023CC5B7B002A90A4 /* TestOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9DA9F23CC5B7B002A90A4 /* TestOneViewController.swift */; };
 		3DE7276823C9C2970033EC6E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7276723C9C2970033EC6E /* TestViewController.swift */; };
-		439ECB25706AC8A4EA83FA76 /* libPods-KVBaseKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C366F9678C8BB93A358C3171 /* libPods-KVBaseKit_Tests.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		A6F57A1C610F0E39FAC11AD6 /* libPods-KVBaseKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 110D098F2A4FF5C2A25FA687 /* libPods-KVBaseKit_Example.a */; };
+		87F47CF776CA35E30981B955 /* Pods_KVBaseKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715A8642069D5E25185688D3 /* Pods_KVBaseKit_Example.framework */; };
+		D47F8015015E7A970472E984 /* Pods_KVBaseKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9E0448976745025FAD9C5A /* Pods_KVBaseKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		110D098F2A4FF5C2A25FA687 /* libPods-KVBaseKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KVBaseKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11263FF4D583B35D842F817E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3DD9DA9F23CC5B7B002A90A4 /* TestOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOneViewController.swift; sourceTree = "<group>"; };
 		3DE7276723C9C2970033EC6E /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
@@ -46,9 +45,10 @@
 		607FACE51AFB9204008FA782 /* KVBaseKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVBaseKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		715A8642069D5E25185688D3 /* Pods_KVBaseKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVBaseKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A772CF31792C8711979D315 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9641CDBF63E4348588BFEA7C /* Pods-KVBaseKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVBaseKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-KVBaseKit_Tests/Pods-KVBaseKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C366F9678C8BB93A358C3171 /* libPods-KVBaseKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KVBaseKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9E0448976745025FAD9C5A /* Pods_KVBaseKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVBaseKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E415EF31FC3014B6D11320EC /* KVBaseKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KVBaseKit.podspec; path = ../KVBaseKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F0BE7A695E37297B387D535F /* Pods-KVBaseKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVBaseKit_Example.release.xcconfig"; path = "Target Support Files/Pods-KVBaseKit_Example/Pods-KVBaseKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6F57A1C610F0E39FAC11AD6 /* libPods-KVBaseKit_Example.a in Frameworks */,
+				87F47CF776CA35E30981B955 /* Pods_KVBaseKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				439ECB25706AC8A4EA83FA76 /* libPods-KVBaseKit_Tests.a in Frameworks */,
+				D47F8015015E7A970472E984 /* Pods_KVBaseKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,8 +148,8 @@
 		9F07C54385D9431FB685DA3A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				110D098F2A4FF5C2A25FA687 /* libPods-KVBaseKit_Example.a */,
-				C366F9678C8BB93A358C3171 /* libPods-KVBaseKit_Tests.a */,
+				715A8642069D5E25185688D3 /* Pods_KVBaseKit_Example.framework */,
+				CA9E0448976745025FAD9C5A /* Pods_KVBaseKit_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -176,6 +176,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				C1CC9C847CE184707B364E4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -310,6 +311,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1CC9C847CE184707B364E4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KVBaseKit_Example/Pods-KVBaseKit_Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KVBaseKit_Example/Pods-KVBaseKit_Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KVBaseKit_Example/Pods-KVBaseKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
